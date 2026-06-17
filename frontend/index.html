@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación Bully Algorithm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Algoritmo Bully</h1>
+            <p>Elección Dinámica de Coordinador</p>
+        </header>
+
+        <div class="controls">
+            <button id="btnFail" class="btn btn-danger">Simular Falla P5</button>
+            <button id="btnDetect" class="btn btn-warning" disabled>P2 Detecta Falla</button>
+            <button id="btnReset" class="btn btn-primary">Reiniciar Sistema</button>
+        </div>
+
+        <div class="nodes-container" id="nodesContainer">
+            <!-- Los nodos se generan con JS -->
+        </div>
+
+        <div class="logs-container">
+            <h3>Registro de Mensajes</h3>
+            <div id="logs" class="logs-content"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
